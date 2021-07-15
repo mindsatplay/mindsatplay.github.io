@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Minds At Play | CogSci 2021</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+  <script src="https://kit.fontawesome.com/af64d73279.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Top nav bar -->
+  <div class="w3-top">
+    <div>
+      <h1>Minds at Play</h1>
+      <p style="text-align: center;"><a href="https://cognitivesciencesociety.org/cogsci-2021/">CogSci 2021</a> Workshop
+        | July 26th, 2021 | </p>
+    </div>
+    <div class="w3-row w3-large" style="margin:0 20px 0 20px">
+      <a href="javascript:void(0)" onclick="openTab(event, 'About');">
+        <div class="w3-col w3-button s4 tablink w3-hover-none w3-hover-text-light-grey">
+          About
+        </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openTab(event, 'Speakers');">
+        <!-- <div class="w3-quarter w3-button"> -->
+        <div class="w3-col w3-button s4 tablink w3-hover-none w3-hover-text-light-grey">
+          Speakers
+        </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openTab(event, 'Schedule');">
+        <div class="w3-col w3-button s4 tablink w3-hover-none w3-hover-text-light-grey">
+          Schedule
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- People -->
+  <div class="content w3-container">
+
+    <!-- About -->
+    <div id="About" class="w3-panel tab">
+      <h1>Abstract</h1>
+      <p>Play and curiosity are unmistakable signatures of an active mind. It is perhaps unsurprising then, that recent
+        advances in machine learning and robotics have used algorithmic approximations of curiosity to build artiﬁcial
+        agents that explore, learn, and plan more effectively. This burgeoning interest in the computational study of
+        curiosity and exploration is accompanied by a long history of studies linking play and learning in people and
+        animals.</p>
+      <br>
+      <p> After more than a century of research, what has the cognitive science of play taught us, and what is the path
+        forward? Reaching a ﬁeld-wide consensus will require conversations between different empirical and computational
+        perspectives. This full-day workshop brings together researchers studying animals, humans, and artiﬁcial agents
+        to explore the full complexity of play and its relationship to learning, thinking, and planning.</p>
+      <br>
+      <a href="https://cognitivesciencesociety.org/wp-content/uploads/2021/05/WS4.pdf">
+        <p>Full workshop description.</p>
+      </a>
+      <h1>Organizers</h1>
+      <div class="w3-row-padding">
+        <div class="w3-half">
+          <img src="headshots/ChuJunyi-1.png" alt="Chu" style="width:50%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Junyi Chu <a href="https://junyichu.mit.edu"><i class="fas fa-globe-americas"></i></a>
+              <a href="mailto:junyichu@mit.edu"><i class="fas fa-envelope"></i></a>
+            </h3>
+            <p class="w3-opacity">Massachusetts Institute of Technology</p>
+          </div>
+        </div>
+        <div class="w3-half">
+          <img src="headshots/SchulzLaura.jpg" alt="Schulz" style="width:50%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Laura Schulz <a href="https://eccl.mit.edu"><i class="fas fa-globe-americas"></i></a>
+              <a href="mailto:lschulz@mit.edu"><i class="fas fa-envelope"></i></a>
+            </h3>
+            <p class="w3-opacity">Massachusetts Institute of Technology</p>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+    <!-- Speakers -->
+    <div id="Speakers" class="w3-panel tab" style="display:none">
+      <h1>Invited Speakers</h1>
+      <div class="w3-row-padding">
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+          <img src="headshots/AuerspergAlice-1.png" alt="Alice" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3><a
+                href="https://www.vetmeduni.ac.at/en/messerli/science/cognition/wildlife/goffin-lab/goldegg-goffin-lab/#c76959">Alice
+                Auersperg<a></h3>
+            <a href="mailto:alice.auersperg@vetmeduni.ac.at"><i class="fas fa-envelope"></i></a>
+            </h3>
+            <p class="w3-opacity">University of Veterinary Medicine Vienna</p>
+
+          </div>
+        </div>
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+          <!-- <div class="w3-card"> -->
+          <img src="headshots/BonawitzElizabeth-1.png" alt="Bonawitz" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Elizabeth Bonawitz
+              <a href="mailto:elizabeth_bonawitz@gse.harvard.edu"><i class="fas fa-envelope"></i></a>
+              <a href="http://ccdlab.rutgers.edu/index.html"><i class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">Harvard University</p>
+            <a href="https://twitter.com/e_bonawitz" class="twitter-follow-button" data-show-count="false">Follow
+              @E_Bonawitz</a>
+          </div>
+        </div>
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+          <!-- <div class="w3-card"> -->
+          <img src="headshots/ChuJunyi-1.png" alt="Chu" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Junyi Chu
+              <a href="mailto:junyichu@mit.edu"><i class="fas fa-envelope"></i></a>
+              <a href="https://junyichu.mit.edu"><i class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">Massachusetts Institute of Technology</p>
+            <a href="https://twitter.com/JunyiChu" class="twitter-follow-button" data-show-count="false">Follow
+              @JunyiChu</a>
+          </div>
+        </div>
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+
+          <img src="headshots/EvansNatalie-1.png" alt="Evans" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Natalie Evans
+              <a href="mailto:natalie.evans@temple.edu"><i class="fas fa-envelope"></i></a>
+            </h3>
+            <p class="w3-opacity">Temple University</p>
+            <a href="https://twitter.com/TUinfchildlab" class="twitter-follow-button" data-show-count="false">Follow
+              @TUinfchildlab</a>
+          </div>
+        </div>
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+
+          <img src="headshots/gopnikAlison.jpeg" alt="Gopnik" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Alison Gopnik
+              <a href="mailto:gopnik@berkeley.edu"><i class="fas fa-envelope"></i></a>
+              <a href="http://alisongopnik.com"><i class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">University of California, Berkeley</p>
+            <a href="https://twitter.com/AlisonGopnik" class="twitter-follow-button" data-show-count="false">Follow
+              @AlisonGopnik</a>
+          </div>
+        </div>
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+          <img src="headshots/KachergisGeorge-1.png" alt="Kachergis" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>George Kachergis
+              <a href="mailto:gkacherg@stanford.edu"><i class="fas fa-envelope"></i></a>
+              <a href="https://kachergis.github.io/"><i class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">Stanford University</p>
+            <a href="https://twitter.com/kachergis" class="twitter-follow-button" data-show-count="false">Follow
+              @kachergis</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="w3-row-padding">
+        <div class="w3-col m4 l4 w3-margin-bottom">
+          <img src="headshots/KarchTristan-1.png" alt="Karch" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Tristan Karch
+              <a href="mailto:Tristan.karch@inria.fr"><i class="fas fa-envelope"></i></a>
+              <a href="http://tristankarch.com"><i class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">Inria Bordeaux</p>
+            <a href="https://twitter.com/karch_tristan" class="twitter-follow-button" data-show-count="false">Follow
+              @karch_tristan</a>
+
+          </div>
+
+        </div>
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+
+          <img src="headshots/LillardAngeline-1.png" alt="Lillard" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Angeline Lillard
+              <a href="mailto:asl2h@virginia.edu"><i class="fas fa-envelope"></i></a>
+              <a href="https://uva.theopenscholar.com/early-development-lab"><i class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">University of Virginia</p>
+
+          </div>
+        </div>
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+          <img src="headshots/LiquinEmily-1.png" alt="Liquin" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Emily Liquin
+              <a href="mailto:eliquin@princeton.edu"><i class="fas fa-envelope"></i></a>
+              <a href="https://emilyliquin.com"><i class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">Princeton University</p>
+            <a href="https://twitter.com/emilyliquin" class="twitter-follow-button" data-show-count="false">Follow
+              @emilyliquin</a>
+          </div>
+        </div>
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+
+          <img src="headshots/SeedAmanda-1.png" alt="Seed" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Amanda Seed
+              <a href="mailto:ams18@st-andrews.ac.uk"><i class="fas fa-envelope"></i></a>
+              <a
+                href="https://risweb.st-andrews.ac.uk/portal/da/persons/amanda-madeleine-seed(70b78cbb-0fb6-4731-80a4-e88343a343bf).html"><i
+                  class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">University of St Andrews</p>
+            <a href="https://twitter.com/AmandaMSeed" class="twitter-follow-button" data-show-count="false">Follow
+              @AmandaMSeed</a>
+          </div>
+        </div>
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+
+          <img src="headshots/SilverTom-1.png" alt="Silver" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Tom Silver
+              <a href="mailto:tslvr@mit.edu"><i class="fas fa-envelope"></i></a>
+              <a href="https://web.mit.edu/tslvr/www/"><i class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">Massachusetts Institute of Technology</p>
+          </div>
+        </div>
+
+
+        <div class="w3-col m4 l4 w3-margin-bottom">
+          <img src="headshots/UllmanTomer-1.png" alt="Ullman" style="width:100%" class="w3-circle">
+          <div class="w3-container">
+            <h3>Tomer Ullman
+              <a href="mailto:tullman@fas.harvard.edu"><i class="fas fa-envelope"></i></a>
+              <a href="https://www.tomerullman.org"><i class="fas fa-globe-americas"></i></a>
+            </h3>
+            <p class="w3-opacity">Harvard University</p>
+            <a href="https://twitter.com/TomerUllman" class="twitter-follow-button" data-show-count="false">Follow
+              @TomerUllman</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Schedule -->
+
+  <div id="Schedule" class="w3-panel tab" style="display:none">
+    <h1><b>Workshop Schedule</b></h1>
+    <p>To be announced</p>
+  </div>
+
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script>
+    function openTab(evt, cityName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("tab");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-text-light-gray", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.firstElementChild.className += " w3-text-light-gray";
+    }
+  </script>
+</body>
+
+</html>
